@@ -5,17 +5,10 @@ Branch task-4
 
 #include <stdio.h>
 #include <math.h>
-#define N 5
+#define N 10
 
 int main(){
     int array[N][N] = {0};
-
-    for (int j = 0; j < N; j++){
-        for (int i = 0; i < N; i++)
-            printf("%-2d ", array[j][i]);     
-        printf("\n");   
-    } 
-    printf("\n"); 
 
     int number = 1;
     int rowBegin = 0;
@@ -43,7 +36,7 @@ int main(){
 
     for (int j = 0; j < N; j++){
         for (int i = 0; i < N; i++)
-            printf("%-2d ", array[j][i]);     
+            printf("%-3d ", array[j][i]);     
         printf("\n");   
     }
 
